@@ -47,7 +47,8 @@ Figure out what you need to change to give Javascript access to the `h1#header` 
 
 **YOUR NOTES**
 ```
-
+defer or i just cut and paste the   <script src="index.js"></script> to the end of body and added .textcontent
+```
 ```
 ___________
 
@@ -56,7 +57,9 @@ ___________
 Now that you have access to the `h1#header` element, use Javascript to change the element's font color to your favorite color.
 
 **YOUR NOTES**
-```
+head.style.color = "blue"
+
+tried this using head.textContent.style.color = "blue" I think I get why it fails now```
 
 ```
 ___________
